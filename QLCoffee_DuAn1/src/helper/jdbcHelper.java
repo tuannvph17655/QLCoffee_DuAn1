@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  *
  * @author BlackBoy
  */
-public class jdbcHelper {
+public class JdbcHelper {
     public static String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
     public static String dburl ="jdbc:sqlserver://34.146.147.39:1433;databaseName=QLCoffee";
     public static String username = "tuannvph17655";
@@ -27,7 +27,7 @@ public class jdbcHelper {
         try {
             Class.forName(driver);
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(jdbcHelper.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(JdbcHelper.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
