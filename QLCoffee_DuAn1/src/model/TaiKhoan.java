@@ -87,6 +87,11 @@ public class TaiKhoan {
     public void setAn(boolean an) {
         this.an = an;
     }
-    
+
+    @Override
+    public String toString() {
+        return tenTaiKhoan;
+    }
+
     
 }
