@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package UI;
-
-import java.util.Collections;
-
+package ui;
 /**
  *
  * @author
@@ -62,7 +59,7 @@ public class DoiMatKhau extends javax.swing.JFrame {
         btnHuy.setBackground(new java.awt.Color(201, 0, 15));
         btnHuy.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         btnHuy.setForeground(new java.awt.Color(255, 255, 255));
-        btnHuy.setIcon(new javax.swing.ImageIcon("F:\\QLCoffee_DuAn1\\QLCoffee_DuAn1\\src\\Icon\\huy.png")); // NOI18N
+        btnHuy.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/huy.png"))); // NOI18N
         btnHuy.setText("Hủy");
         btnHuy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,7 +71,7 @@ public class DoiMatKhau extends javax.swing.JFrame {
         bnXacNhan.setBackground(new java.awt.Color(1, 161, 79));
         bnXacNhan.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         bnXacNhan.setForeground(new java.awt.Color(255, 255, 255));
-        bnXacNhan.setIcon(new javax.swing.ImageIcon("F:\\QLCoffee_DuAn1\\QLCoffee_DuAn1\\src\\Icon\\dangNhap.png")); // NOI18N
+        bnXacNhan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/dangNhap.png"))); // NOI18N
         bnXacNhan.setText("Xác nhận");
         bnXacNhan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
