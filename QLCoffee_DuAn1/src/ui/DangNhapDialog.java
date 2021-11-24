@@ -3,12 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package UI;
-
-import java.sql.Connection;
-import javax.swing.JOptionPane;
-//import miniForm.guiGmail;
-
+package ui;
 /**
  *
  * @author CHIEN
@@ -18,14 +13,14 @@ public class DangNhapDialog extends javax.swing.JDialog {
     /**
      * Creates new form DangNhapDialog
      */
-
-    public DangNhapDialog(java.awt.Frame parent, boolean modal) {
-        super(parent, modal);
+    
+    public DangNhapDialog() {
+        initComponents();
         setLocationRelativeTo(null);
+        
     }
 
     
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -217,19 +212,21 @@ public class DangNhapDialog extends javax.swing.JDialog {
     }//GEN-LAST:event_txtPassActionPerformed
 
     private void lblQuenMKMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblQuenMKMouseClicked
-        // TODO add your handling code here:
        
     }//GEN-LAST:event_lblQuenMKMouseClicked
 
     private void btnDangNhapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDangNhapActionPerformed
         // TODO add your handling code here:
+       
     }//GEN-LAST:event_btnDangNhapActionPerformed
 
     private void lblExitMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblExitMouseClicked
         // TODO add your handling code here:
+       
     }//GEN-LAST:event_lblExitMouseClicked
     //
-
+  
+    
 
     /**
      * @param args the command line arguments
@@ -264,26 +261,11 @@ public class DangNhapDialog extends javax.swing.JDialog {
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
 
         /* Create and display the dialog */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                DangNhapDialog dialog = new DangNhapDialog(new javax.swing.JFrame(), true);
-                dialog.addWindowListener(new java.awt.event.WindowAdapter() {
-                    @Override
-                    public void windowClosing(java.awt.event.WindowEvent e) {
-                        System.exit(0);
-                    }
-                });
-                dialog.setVisible(true);
+                new DangNhapDialog().setVisible(true);
             }
         });
     }

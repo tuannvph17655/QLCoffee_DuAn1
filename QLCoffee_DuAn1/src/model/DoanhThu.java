@@ -7,16 +7,16 @@ package model;
 
 /**
  *
- * @author Doanh
+ * @author BlackBoy
  */
-public class doanhThu {
+public class DoanhThu {
     private String nam;
-private float doanhThu;
+    private float doanhThu;
 
-    public doanhThu() {
+    public DoanhThu() {
     }
 
-    public doanhThu(String nam, float doanhThu) {
+    public DoanhThu(String nam, float doanhThu) {
         this.nam = nam;
         this.doanhThu = doanhThu;
     }
@@ -41,5 +41,4 @@ private float doanhThu;
     public String toString() {
         return "doanhThu{" + "nam=" + nam + ", doanhThu=" + doanhThu + '}';
     }
-
 }

@@ -144,7 +144,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="F:\QLCoffee_DuAn1\QLCoffee_DuAn1\src\Icon\huy.png"/>
+                  <Image iconType="3" name="/Icon/huy.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="H&#x1ee7;y"/>
               </Properties>
@@ -164,7 +164,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="F:\QLCoffee_DuAn1\QLCoffee_DuAn1\src\Icon\dangNhap.png"/>
+                  <Image iconType="3" name="/icon/dangNhap.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="X&#xe1;c nh&#x1ead;n"/>
               </Properties>
