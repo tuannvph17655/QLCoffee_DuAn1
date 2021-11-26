@@ -15,7 +15,7 @@ import java.util.Date;
  *
  * @author CHIEN
  */
-public class ChuyenDoiHelper {
+public class ChuyenDoi {
 
     public static String chuyenDoiTien(double tien) {
         NumberFormat fomater = new DecimalFormat("###,###,###,###");
